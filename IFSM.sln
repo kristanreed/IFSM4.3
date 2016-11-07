@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IFSM43", "IFSM.vcxproj", "{CBF76A87-E29B-43C6-8F8C-48DB440074B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{28133B8B-9702-404D-B6C4-0AD812FCF407} = {28133B8B-9702-404D-B6C4-0AD812FCF407}
+	EndProjectSection
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "IFSM_lib", "IFSM_lib.vfproj", "{28133B8B-9702-404D-B6C4-0AD812FCF407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Win32 = CD_ROM|Win32
+		Debug|Win32 = Debug|Win32
+		DVD-5|Win32 = DVD-5|Win32
+		Release|Win32 = Release|Win32
+		SingleImage|Win32 = SingleImage|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.CD_ROM|Win32.ActiveCfg = Template|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.CD_ROM|Win32.Build.0 = Template|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.Debug|Win32.Build.0 = Debug|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.DVD-5|Win32.Build.0 = Debug|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.Release|Win32.ActiveCfg = Release|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.Release|Win32.Build.0 = Release|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.SingleImage|Win32.ActiveCfg = Template|Win32
+		{CBF76A87-E29B-43C6-8F8C-48DB440074B5}.SingleImage|Win32.Build.0 = Template|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.CD_ROM|Win32.ActiveCfg = Debug|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.CD_ROM|Win32.Build.0 = Debug|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.Debug|Win32.ActiveCfg = Debug|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.Debug|Win32.Build.0 = Debug|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.DVD-5|Win32.Build.0 = Debug|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.Release|Win32.ActiveCfg = Release|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.Release|Win32.Build.0 = Release|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.SingleImage|Win32.ActiveCfg = Debug|Win32
+		{28133B8B-9702-404D-B6C4-0AD812FCF407}.SingleImage|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
